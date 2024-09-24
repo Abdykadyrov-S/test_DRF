@@ -10,9 +10,6 @@ class Test(models.Model):
         max_length=255,
         verbose_name="Номер телефона"
     )
-    date = models.DateTimeField(
-        verbose_name="Дата"
-    )
 
     def __str__(self):
         return self.full_name
